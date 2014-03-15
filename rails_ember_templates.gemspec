@@ -7,13 +7,12 @@ require "rails_ember_templates/version"
 Gem::Specification.new do |s|
   s.name        = "rails_ember_templates"
   s.version     = RailsEmberTemplates::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsEmberTemplates."
-  s.description = "TODO: Description of RailsEmberTemplates."
+  s.authors     = ["Ori Shavit"]
+  s.email       = ["orishavit@gmail.com"]
+  s.summary     = "Use the asset pipeline to provide Handlebars templates to EmberJS"
+  s.description = s.summary
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "railties", ">= 4.0.0"
