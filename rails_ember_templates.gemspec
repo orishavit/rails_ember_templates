@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.description = s.summary
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
-  s.test_files = Dir["test/**/*"]
 
   s.add_dependency "railties", ">= 4.0.0"
   s.add_dependency 'barber'
